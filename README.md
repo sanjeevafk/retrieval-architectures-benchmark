@@ -8,7 +8,7 @@ An empirical benchmark comparing lexical, dense single-vector, multi-vector late
 
 ---
 
-## 🏆 Key Findings at a Glance
+## Key Findings
 
 | Benchmark Suite / Domain | BM25 (Lexical) | EmbeddingGemma 2 (270M) | Late-0.6b (340M) | Context-9B (9B FP16) | Winner |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -20,7 +20,7 @@ An empirical benchmark comparing lexical, dense single-vector, multi-vector late
 
 ---
 
-## 🔬 Evaluated Architectures
+## Evaluated Architectures
 
 1. **BM25 (Okapi)**: Classical inverted index baseline matching exact term frequencies.
 2. **`google/embeddinggemma-2` (270M)**: Modern compact dense bi-encoder with 768 dimensions and Matryoshka capability.
@@ -29,32 +29,7 @@ An empirical benchmark comparing lexical, dense single-vector, multi-vector late
 
 ---
 
-## 📂 Repository Structure
-
-```text
-├── SHOWCASE_RETRIEVAL_BENCHMARKS.ipynb   # Master presentation notebook with outputs & analysis
-├── BENCHMARK_REPORT.md                   # Full empirical analysis, hardware profiles & audit
-│
-├── notebook_runs/                        # Verified execution notebooks with recorded outputs
-│   ├── 01_embeddinggemma_scifact.ipynb
-│   ├── 02_embeddinggemma_nfcorpus.ipynb
-│   ├── 03_late_interaction_scifact.ipynb
-│   ├── 04_late_interaction_nfcorpus.ipynb
-│   ├── 05_security_books_bm25_gemma_late.ipynb
-│   └── 06_kaggle_dual_t4_context9b_full_eval.ipynb
-│
-└── sec_eval/                             # In-domain cybersecurity corpus & generators
-    ├── corpus.jsonl                      # 1,243 chunks from 3 cybersecurity reference manuals
-    ├── queries.json                      # 15 exact technical CLI evaluation queries
-    ├── queries_conceptual.json           # 15 conceptual zero-keyword queries
-    ├── make_colab_sec_eval.py            # Colab notebook generator script
-    ├── make_kaggle_context9b.py          # Kaggle Dual-T4 notebook generator script
-    └── run_sec_eval.py                   # Standalone Python BM25 baseline script
-```
-
----
-
-## 🧠 Architectural Insights
+## Architectural Insights
 
 ### 1. The "Lexical Drag" of Naive Reciprocal Rank Fusion (RRF)
 - Naive 50/50 RRF (`k=60`) degraded performance on conceptual queries from **90.0% down to 83.3%**.
@@ -71,7 +46,7 @@ An empirical benchmark comparing lexical, dense single-vector, multi-vector late
 
 ---
 
-## 🚀 Running the Benchmarks
+## Running the Benchmarks
 
 To run the local BM25 evaluation:
 ```bash
