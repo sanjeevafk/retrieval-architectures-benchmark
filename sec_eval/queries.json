@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q01",
+    "query": "meterpreter privesc getsystem named pipe impersonation",
+    "book_tag": "Metasploit",
+    "topic": "Privilege Escalation in Meterpreter"
+  },
+  {
+    "id": "q02",
+    "query": "shikata ga nai polymorphic shellcode encoder bad characters elimination",
+    "book_tag": "Metasploit",
+    "topic": "Payload Encoding and Evasion"
+  },
+  {
+    "id": "q03",
+    "query": "msfvenom generate staged meterpreter reverse tcp payload windows",
+    "book_tag": "Metasploit",
+    "topic": "Payload Generation"
+  },
+  {
+    "id": "q04",
+    "query": "database fingerprinting differences between mysql and mssql comment syntax",
+    "book_tag": "SQLi_Attacks",
+    "topic": "SQL Dialect Fingerprinting"
+  },
+  {
+    "id": "q05",
+    "query": "blind sql injection timing attacks using WAITFOR DELAY and pg_sleep",
+    "book_tag": "SQLi_Attacks",
+    "topic": "Time-based Blind SQLi"
+  },
+  {
+    "id": "q06",
+    "query": "second order sql injection payload stored in database and executed later",
+    "book_tag": "SQLi_Attacks",
+    "topic": "Second-Order SQL Injection"
+  },
+  {
+    "id": "q07",
+    "query": "out of band sql injection data exfiltration via dns lookup utl_http xp_dirtree",
+    "book_tag": "SQLi_Attacks",
+    "topic": "Out-of-band Data Exfiltration"
+  },
+  {
+    "id": "q08",
+    "query": "bypassing web application firewall using sql comment obfuscation inline comments",
+    "book_tag": "SQLi_Attacks",
+    "topic": "WAF Evasion via Comment Obfuscation"
+  },
+  {
+    "id": "q09",
+    "query": "sql injection in order by clause error based exploitation",
+    "book_tag": "SQLi_Attacks",
+    "topic": "Order By Clause Injection"
+  },
+  {
+    "id": "q10",
+    "query": "reflected cross site scripting vs stored xss execution context differences",
+    "book_tag": "WAHH",
+    "topic": "XSS Classification & Context"
+  },
+  {
+    "id": "q11",
+    "query": "DOM based XSS taint flow sources sinks location hash document write",
+    "book_tag": "WAHH",
+    "topic": "DOM-based XSS Sinks & Sources"
+  },
+  {
+    "id": "q12",
+    "query": "cross site request forgery token validation bypass double submit cookie",
+    "book_tag": "WAHH",
+    "topic": "CSRF Defenses and Bypasses"
+  },
+  {
+    "id": "q13",
+    "query": "padding oracle attack cbc mode block cipher decryption without key",
+    "book_tag": "WAHH",
+    "topic": "Cryptographic Padding Oracle"
+  },
+  {
+    "id": "q14",
+    "query": "session fixation attack user authentication privilege escalation",
+    "book_tag": "WAHH",
+    "topic": "Session Management & Fixation"
+  },
+  {
+    "id": "q15",
+    "query": "bypassing path traversal restrictions using null byte injection url encoding",
+    "book_tag": "WAHH",
+    "topic": "Directory Traversal Evasion"
+  }
+]

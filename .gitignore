@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Temporary / Zip files
+*.zip
+drive-download*
+*.tmp
+
+# Raw scratch session files
+session-ses_ee3a.md
+organize_and_merge.py
+build_showcase_notebook.py
+
+# Unformatted root scratch duplicates (clean versions live in notebook_runs/ and sec_eval/)
+notebook254b05731e.ipynb
+notebook6512990a46.ipynb
+colab_security_books_eval.ipynb
+colab_embeddinggemma_*.ipynb
+colab_late_interaction_*.ipynb

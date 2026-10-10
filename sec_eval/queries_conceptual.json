@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q01",
+    "query": "escalating a compromised process to the highest administrative system level without providing credentials on windows",
+    "book_tag": "Metasploit",
+    "topic": "Privilege Escalation in Meterpreter"
+  },
+  {
+    "id": "q02",
+    "query": "mutating binary payload instructions into polymorphic variants to bypass antivirus inspection and avoid null bytes",
+    "book_tag": "Metasploit",
+    "topic": "Payload Encoding and Evasion"
+  },
+  {
+    "id": "q03",
+    "query": "creating a standalone executable that connects back over the network to establish an interactive remote control shell",
+    "book_tag": "Metasploit",
+    "topic": "Payload Generation"
+  },
+  {
+    "id": "q04",
+    "query": "identifying which database engine backend is running based on how the parser handles query remark symbols",
+    "book_tag": "SQLi_Attacks",
+    "topic": "SQL Dialect Fingerprinting"
+  },
+  {
+    "id": "q05",
+    "query": "inferring secret database contents one character at a time by making the server pause before sending the response",
+    "book_tag": "SQLi_Attacks",
+    "topic": "Time-based Blind SQLi"
+  },
+  {
+    "id": "q06",
+    "query": "saving malicious data into user profile records that trigger code evaluation only when reviewed by an administrator",
+    "book_tag": "SQLi_Attacks",
+    "topic": "Second-Order SQL Injection"
+  },
+  {
+    "id": "q07",
+    "query": "extracting sensitive database rows across firewalls by forcing the database server to resolve network domain names",
+    "book_tag": "SQLi_Attacks",
+    "topic": "Out-of-band Data Exfiltration"
+  },
+  {
+    "id": "q08",
+    "query": "evading perimeter traffic filters by splitting malicious database commands across inline multi-line remark blocks",
+    "book_tag": "SQLi_Attacks",
+    "topic": "WAF Evasion via Comment Obfuscation"
+  },
+  {
+    "id": "q09",
+    "query": "extracting information when input is placed directly into the sorting parameter where union operators are forbidden",
+    "book_tag": "SQLi_Attacks",
+    "topic": "Order By Clause Injection"
+  },
+  {
+    "id": "q10",
+    "query": "how victim interaction differs between malicious scripts echoed back immediately versus those permanently saved on the server",
+    "book_tag": "WAHH",
+    "topic": "XSS Classification & Context"
+  },
+  {
+    "id": "q11",
+    "query": "untrusted client side input flowing into dynamic browser execution methods without round tripping through the web server",
+    "book_tag": "WAHH",
+    "topic": "DOM-based XSS Sinks & Sources"
+  },
+  {
+    "id": "q12",
+    "query": "tricking an authenticated user's browser into submitting unauthorized state changing actions without their knowledge",
+    "book_tag": "WAHH",
+    "topic": "CSRF Defenses and Bypasses"
+  },
+  {
+    "id": "q13",
+    "query": "decrypting encrypted data blocks without knowing the secret key by analyzing error responses from validation routines",
+    "book_tag": "WAHH",
+    "topic": "Cryptographic Padding Oracle"
+  },
+  {
+    "id": "q14",
+    "query": "forcing a victim to adopt an attacker chosen identifier before logging in so the attacker retains access afterwards",
+    "book_tag": "WAHH",
+    "topic": "Session Management & Fixation"
+  },
+  {
+    "id": "q15",
+    "query": "accessing restricted files outside the intended web root folder by terminating the file path string prematurely",
+    "book_tag": "WAHH",
+    "topic": "Directory Traversal Evasion"
+  }
+]
